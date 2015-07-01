@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\libsass">
+      <UniqueIdentifier>{e861cf3a-9f45-49e1-95f0-7972c09d01d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libsass">
+      <UniqueIdentifier>{0c5cdfbb-3498-40e6-8555-6062ac7176b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sassc">
+      <UniqueIdentifier>{c62c7444-6dbb-4db3-b46d-efc7e98eebbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sassc">
+      <UniqueIdentifier>{923f09fd-5079-4423-9d5e-7c1d5c253002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sassc\win">
+      <UniqueIdentifier>{8ae2c734-24c6-402b-b1ed-7e03584b772e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sassc\win\posix">
+      <UniqueIdentifier>{58f7b47b-9d21-4c87-bc51-2cd6a3052138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sassc\win">
+      <UniqueIdentifier>{227fbcc8-6666-4c8b-9334-7d97562ea2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sassc\win\posix">
+      <UniqueIdentifier>{dbe80176-7bb5-4d0f-b520-bea6e10317c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libsass\ast.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\base64vlq.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\bind.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\constants.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\context.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\contextualize.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\contextualize_eval.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\cssize.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\emitter.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\error_handling.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\eval.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\expand.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\extend.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\file.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\functions.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\inspect.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\json.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\lexer.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\listize.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\node.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\output.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\parser.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\plugins.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\position.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\prelexer.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\remove_placeholders.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\sass.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\sass_context.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\sass_functions.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\sass_interface.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\sass_util.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\sass_values.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\sass2scss.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\source_map.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\to_c.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\to_string.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\units.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\utf8_string.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\util.cpp">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sassc\sassc.c">
+      <Filter>Source Files\sassc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sassc\win\posix\getopt.c">
+      <Filter>Source Files\sassc\win\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libsass\cencode.c">
+      <Filter>Source Files\libsass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libsass\ast.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\ast_def_macros.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\ast_factory.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\ast_fwd_decl.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\backtrace.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\base64vlq.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\bind.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\color_names.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\constants.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\context.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\contextualize.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\contextualize_eval.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\cssize.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\debug.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\debugger.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\emitter.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\environment.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\error_handling.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\eval.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\expand.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\extend.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\file.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\functions.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\inspect.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\json.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\kwd_arg_macros.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\lexer.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\listize.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\mapping.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\memory_manager.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\node.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\operation.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\output.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\parser.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\paths.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\plugins.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\position.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\prelexer.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\remove_placeholders.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\sass.h">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\sass_context.h">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\sass_functions.h">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\sass_interface.h">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\sass_util.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\sass_values.h">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\sass_version.h">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\sass2scss.h">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\source_map.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\subset_map.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\to_c.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\to_string.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\units.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\utf8.h">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\utf8_string.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libsass\util.hpp">
+      <Filter>Header Files\libsass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sassc\win\posix\getopt.h">
+      <Filter>Header Files\sassc\win\posix</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
