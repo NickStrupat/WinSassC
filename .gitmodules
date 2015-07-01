@@ -1,6 +1,8 @@
 [submodule "libsass"]
 	path = libsass
 	url = https://github.com/sass/libsass.git
+	branch = 3.2.5
 [submodule "sassc"]
 	path = sassc
 	url = https://github.com/sass/sassc.git
+	branch = 3.2.5
