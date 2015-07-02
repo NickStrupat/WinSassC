@@ -3,4 +3,4 @@
 
 A working Visual Studio solution for compiling 'sassc' on Windows
 
-The `libsass` and `sassc` submodules are currently on the 3.2.5 tag of each repo
+The `libsass` and `sassc` submodules are currently on the **3.2.5** tag of each repo
